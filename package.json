@@ -1,15 +1,12 @@
 {
-  "name": "phaser3-ts-vite-game",
+  "name": "cat-spotter-game",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview"
-  },
-  "dependencies": {
-    "phaser": "^3.80.1"
   },
   "devDependencies": {
     "typescript": "^5.6.3",
