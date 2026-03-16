@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top, #2d3255, #121425);
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+#game-container {
+  border: 3px solid #ffffff22;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px #00000066;
+}
+
+canvas {
+  display: block;
+}
